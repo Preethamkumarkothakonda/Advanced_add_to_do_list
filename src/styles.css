@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.todoapp {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+form input {
+  flex: 1;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+form button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.filters button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.filters button.active {
+  border-bottom: 2px solid #28a745;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.task-view label {
+  flex: 1;
+  cursor: pointer;
+}
+
+.task-view button {
+  margin-left: 0.5rem;
+}
+
+.task input[type="checkbox"] {
+  margin-right: 1rem;
+}
+
+.task form {
+  flex: 1;
+  display: flex;
+}
+
+.task form input {
+  flex: 1;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  margin-right: 0.5rem;
+}
+
+.task form button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  cursor: ;
+}
