@@ -3,6 +3,7 @@ The Advanced To-Do List is a feature-rich, user-friendly task management website
 
 # Features
 Task Management: Easily add, edit, and delete tasks.
+
 Priority Levels: Assign priority levels to tasks to manage them effectively.
 Due Dates: Set deadlines for tasks to ensure timely completion.
 Categories: Organize tasks into categories for better clarity.
